@@ -22,9 +22,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src",
+    "template/src",
     ".eslintrc.js",
-    "webpack.config.cjs",
+    "template/webpack.config.cjs",
     "webpack.config.js"
   ]
 }
