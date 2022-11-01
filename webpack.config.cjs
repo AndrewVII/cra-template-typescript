@@ -63,6 +63,11 @@ module.exports = (env, argv) => ({
   resolve: {
     extensions: ['*', '.tsx', '.ts', '.js'],
   },
+  devServer: {
+    port: 3000,
+    host: '0.0.0.0',
+    historyApiFallback: true,
+  },
   plugins: [
     new CleanWebpackPlugin({
       cleanAfterEveryBuildPatterns: ['dist'],
