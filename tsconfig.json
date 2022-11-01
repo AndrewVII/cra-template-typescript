@@ -23,7 +23,6 @@
   },
   "include": [
     "src",
-    "server.tsx",
     ".eslintrc.js",
     "webpack.config.cjs",
     "webpack.config.js"

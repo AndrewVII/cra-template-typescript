@@ -25,7 +25,7 @@
   },
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config ./webpack.config.cjs --mode development --devtool inline-source-map --hot",
-    "start": "yarn run build && NODE_ENV=production DEBUG=tbg:* node --experimental-modules --es-module-specifier-resolution=node ./server.tsx",
+    "start": "yarn run build && NODE_ENV=production DEBUG=tbg:* node --experimental-modules --es-module-specifier-resolution=node ./server.js",
     "build": "NODE_ENV=production webpack --config ./webpack.config.cjs --mode production",
     "lint": "./node_modules/.bin/eslint \"**/*.tsx\" --ignore-pattern node_modules/ --ignore-pattern dist/ --fix"
   },
