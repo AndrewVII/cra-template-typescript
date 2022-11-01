@@ -4,7 +4,7 @@
   "description": "AndrewVII's template for front-end applications",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndrewVII/cra-template-typescript",
+    "url": "https://github.com/AndrewVII/cra-template-typescript"
   },
   "license": "MIT",
   "engines": {
