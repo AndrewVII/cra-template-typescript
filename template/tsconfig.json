@@ -23,9 +23,9 @@
     "noEmit": false
   },
   "include": [
-    "template/src",
+    "src",
     ".eslintrc.js",
-    "template/webpack.config.cjs",
+    "webpack.config.cjs",
     "webpack.config.js"
   ]
 }
